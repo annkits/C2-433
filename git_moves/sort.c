@@ -6,7 +6,7 @@
 #define MAX_TOTAL 301
 #define CHECK 5
 
-//это всё какой-то ужас
+//aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 void SelectionSort(struct Student arr[], int size){
     for (int i = 0; i < size - 1; i++){
