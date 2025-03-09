@@ -8,7 +8,7 @@
 
 //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-void SelectionSort(struct Student arr[], int size){
+void SelectionSort(struct Student arr[]){
     for (int i = 0; i < size - 1; i++){
         int j_max = i;
         for (int j = i + 1; j < size; j++){
@@ -21,4 +21,9 @@ void SelectionSort(struct Student arr[], int size){
         arr[j_max] = temp;
         memset(&temp, 0, sizeof(struct Student));
     }
+}
+
+int main(){
+    int a[] = {4, 2};
+    int b = SelectionSort(a);
 }
